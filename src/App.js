@@ -1,27 +1,28 @@
-//import Button from "./Button";
-//import styles from "./App.module.css";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Detail from "./routes/Detail";
 import Home from "./routes/Home";
 
 function App() {
-  return <Router>
-    <Switch>
-      <Route path="/movie/:id">
-        <Detail />
-      </Route>
-      <Route path="/">
-        <Home />
-      </Route>
-    </Switch>
-  </Router>;
+  return (
+    <Router>
+      <Switch>
+        <Route path="/movie/:id">
+          <Detail />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
+  );
 }
 
+export default App;
 
+
+
+//import Button from "./Button";
+//import styles from "./App.module.css";
 
 // function App() {
 //   const [loading, setLoading] = useState(true);
@@ -137,5 +138,3 @@ function App() {
 //   </div>
 // );
 // }
-
-export default App;
