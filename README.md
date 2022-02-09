@@ -1,5 +1,6 @@
 # movie-list
 
+- 개발 100%
 - 온라인 강의 참고
 
     https://nomadcoders.co/react-for-beginners
