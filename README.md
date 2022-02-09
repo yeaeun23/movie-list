@@ -1,7 +1,7 @@
 # movie-list
 
 - 노마드코더 강의 참고
-https://nomadcoders.co/react-for-beginners
+    https://nomadcoders.co/react-for-beginners
 
 ## 1. 기능
 
@@ -12,9 +12,11 @@ https://nomadcoders.co/react-for-beginners
 ## 2. API 호출 예시
 
 * <b>URL</b>
+
     https://yts.mx/api/v2/list_movies.json?minimum_rating=9&sort_by=year
 
 * <b>Result (JSON)</b>
+
     ```
     {
         "id": 37384,
@@ -76,3 +78,6 @@ https://nomadcoders.co/react-for-beginners
 
 ## 3. 화면 예시
 
+![image](https://user-images.githubusercontent.com/14077108/153196368-a25d1904-d49d-4009-9000-220184acd08a.png)
+
+![image](https://user-images.githubusercontent.com/14077108/153196743-a7d09bcc-5471-469a-bda4-864b8750e348.png)
