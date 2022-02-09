@@ -1,12 +1,15 @@
 # movie-list
 
-- 노마드코더 강의 참고
+- 온라인 강의 참고
+
     https://nomadcoders.co/react-for-beginners
 
 ## 1. 기능
 
 - React.js 활용 (반응형 UI)
-  : JSX, State, Props, Class Components, Data Fetching, Routing
+
+    : JSX, State, Props, Class Components, Data Fetching, Routing
+
 - 영화 API 활용 (토렌트 인기순)
 
 ## 2. API 호출 예시
